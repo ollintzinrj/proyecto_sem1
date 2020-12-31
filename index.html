@@ -3,14 +3,78 @@
 <title>Proyecto SEM1 Bootstrap</title>
 <head>
   <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/ollin.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <script type="text/javascript" href="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" href="node_modules/popper.js"></script>
   <script type="text/javascript" href="node_modules/jquery.js"></script>
+
 </head>
 <body>
 
-<h1>Bootstrap</h1>
-<p>ay que susto!</p>
+<h1 class="jumbotron">Mis Pasteles Favoritos</h1>
+
+<div class="container d-flex flex-wrap">
+  <div class="row">
+    <div class="col card justify-content-between">
+      <div class="card-title">Pastel de Zanahoria</div>
+      <img src="https://cdn.kiwilimon.com/recetaimagen/31638/36487.jpg" class="img-thumbnail" alt="Pastel de Zanahoria">
+      <div>Para los amantes de este pastel creamos un betún de queso que combina perfectamente.</div>
+    </div>
+
+    <div class="col card justify-content-between">
+      <div class="card-title">Bizcocho de Almendras y Chocolate</div>
+      <img src="https://cdn.kiwilimon.com/recetaimagen/30611/34438.jpg" class="img-thumbnail" alt="Biszcocho de Almendras y Chocolate">
+      <div>Crujiente y dulce, las palabras perfectas para describir este rico pastel.</div>
+    </div>
+
+    <div class="col card justify-content-between">
+      <div class="card-title">Pastel Red Velvet</div>
+      <img src="https://cdn.kiwilimon.com/recetaimagen/30043/33272.jpg" class="img-thumbnail" alt="Pastel Red Velvet">
+      <div>Delicado sabor a chocolate con un toque de rojo elegante.</div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col card justify-content-between">
+      <div class="card-title">Tronco Navideño</div>
+      <img src="https://cdn.kiwilimon.com/recetaimagen/30387/33297.jpg" class="img-thumbnail" alt="Tronco Navideño">
+      <div>Especial para las fiestas navideñas, este tronco que puedes comer.</div>
+      <button type="button" class="btn btn-primary">Comprar</button>
+    </div>
+
+    <div class="col card justify-content-between">
+      <div class="card-title">Pastel Rústico de chocolate</div>
+      <img src="https://cdn.kiwilimon.com/recetaimagen/26863/24340.jpg" class="img-thumbnail" alt="Pastel Rústico de chocolate">
+      <div>Amantes del chocolate deben probar este pastel de triple chocolate.</div>
+      <button type="button" class="btn btn-primary">Comprar</button>
+    </div>
+
+    <div class="col card justify-content-between">
+      <div class="card-title">Pastel con Degradado Rosa</div>
+      <img src="https://cdn.kiwilimon.com/recetaimagen/26003/22763.jpg" class="img-thumbnail" alt="Pastel con Degradado Rosa">
+      <div>Delicado decorado con degradado en rosa y sabor esquisito de vainilla.</div>
+      <button type="button" class="btn btn-primary">Comprar</button>
+    </div>
+  </div>
+</div>
+
+<footer class="d-flex footer">
+  <div class="col d-flex justify-content-center">
+    <p>Este es un proyecto comercial sobre Pasteles que la propietaria Ollintzin Rosas ha cocinado y desarrollado. Espero les guste el dulce sabor de una web hecha con Bootstrap.</p>
+  </div>
+  <div class="col d-flex justify-content-center">
+    <a href="https://web.facebook.com/Ollintzin">
+      <span class="material-icons">facebook</span>
+    </a>
+    <a href="https://github.com/ollintzinrj">
+      <span class="material-icons">code</span>
+    </a>
+  </div>
+</footer>
 
 </body>
 </html>

@@ -1,0 +1,45 @@
+.jumbotron{
+  background-color: #183B59;
+  color: #FFFFFF;
+  font-family: 'Charmonman', cursive;
+  margin-bottom: 0rem;
+}
+
+/*.container{
+  background-color: #D9CA82;
+}*/
+
+body{
+  background-color: #8BD1D9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary{
+  background-color: #D9CA82;
+  border-color: #E6BF7E;
+}
+
+.btn-primary:hover{
+  background-color: #D99F7E;
+  border-color: #BF4B4B;
+}
+
+.card{
+  padding: 15px;
+}
+
+.card-title{
+  font-family: 'Charmonman', cursive;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #BF4B4B;
+  padding: 2rem 2rem;
+  color: #FFF;
+}
+
+a{
+  color: #FFF;
+}
