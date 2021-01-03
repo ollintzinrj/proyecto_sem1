@@ -43,3 +43,7 @@ body{
 a{
   color: #FFF;
 }
+
+.active_navbar{
+  color: #BF4B4B;
+}
