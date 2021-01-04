@@ -47,3 +47,8 @@ a{
 .active_navbar{
   color: #BF4B4B;
 }
+
+.table-header{
+  background-color: #D9CA82;
+  color: #FFF;
+}
