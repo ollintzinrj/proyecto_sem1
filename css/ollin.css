@@ -52,3 +52,21 @@ a{
   background-color: #D9CA82;
   color: #FFF;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+#button-modal{
+  margin-top: 15%;
+}
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+#button-modal{
+  margin-top: 15%;
+}
+
+ }
